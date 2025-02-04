@@ -1,0 +1,44 @@
+h1{
+    color: rgb(255, 25, 0);
+}
+body{
+    font-family: Arial, Helvetica, sans-serif; /*formato da letra*/
+    text-align: center; /* alinhamento dos textos*/
+    padding: 20px;
+    background-color: rgb(144, 141, 141); /* cor de fundo */
+}
+input{
+    padding: 20px; /* para mudar tamanho das coisas*/
+    margin: 30px;  /* para mudar a distancia entre as coias */
+    background-color: gray; /* cor de fundo*/
+    color: black;
+    border: 10px;
+    border-radius: 30px; /* para deixar em formato redondo*/
+}
+input::placeholder{ /* para mudar a cor da escrita de auxlio '' escreva aqui '' */
+    color: black;
+}
+button{
+    padding: 15px 20px;
+    background-color: gray;
+    color: black;
+    border: 10px;
+    cursor: pointer; /* quando coloca o mouse em cima aparece como algo clicavel*/
+    border-radius: 40px;
+}
+button:hover{ /* para mudar a cor quando vai com o mouse para clicar */
+    background-color: black;
+    color: white;
+}
+h1{
+    color: black;
+}
+li{
+    background-color: white;
+    text-align: center;
+    border-radius: 30px;
+    margin: 30px;
+}
+li button {
+    background-color:red
+}
